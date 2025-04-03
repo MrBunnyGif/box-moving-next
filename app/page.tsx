@@ -78,6 +78,7 @@ export default function Home() {
       >
         <SettingsIcon />
       </button>
+      {/* TODO: add max length to input */}
       {
         showSettings &&
         <div className="fixed bottom-0 right-16 m-4 shadow-md p-2 rounded-2xl settings-element">

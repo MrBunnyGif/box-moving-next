@@ -1,5 +1,5 @@
 import type { NextConfig } from "next";
-
+// TODO: transform in PWA
 const nextConfig: NextConfig = {
   output: 'export', // Isso é essencial para gerar arquivos estáticos
   distDir: 'out',   // Especifica a pasta de saída (Netlify espera isso)
