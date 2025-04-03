@@ -71,6 +71,7 @@ export default function Home() {
       }}>
         {currentMessage}
       </h1>
+      {/* TODO: Fix button color on black background*/}
       <button
         type="button"
         className="text-white bg-gray-300 rounded-full p-2.5 cursor-pointer fixed bottom-0 right-0 m-4"
